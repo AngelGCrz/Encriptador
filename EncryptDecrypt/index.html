@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/celular.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/reset.css">
+    
+    <title>Encriptador</title>
+</head>
+<body>
+    
+    <main class="main">
+        <header class="header">
+            <div class="divLogo">
+                <img src="img/Vectorlogo.png" alt="logo">
+            </div>
+        </header>
+
+        <article class="article">
+            <div class="divTextarea">
+                <textarea class="textareaUsuario" id="textoUsuario"  placeholder="INGRESE ALGÚN TEXTO"></textarea>
+            </div>
+            
+        </article>
+        <section class="seccion">
+            <!------------------------FALTA TERMINAR 
+            <div>
+                <div>
+                    <span>!</span>
+                </div>
+            
+                <p class="advertencia">Solo letras minúsculas y sin acentos.</p>
+            </div>
+            ---------------------------------------->
+            <div class="divBtn">
+                <!--<button id="brtEncriptar" class="btnEncriptar" onclick="encriptar()" >Encriptar</button>-->
+                <button id="brtEncriptar" class="btnEncriptar">Encriptar</button>
+                <!--<button class="btnDesencriptar" onclick="desencriptar()">Desencriptar</button>-->
+                <button id="btnDesencriptar" class="btnDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <aside class="aside" id="aside">
+            <div class="divMostrarTexto">
+                <textarea class="mostrarTexto" id="mostrarTexto" placeholder="mostrar"></textarea>
+            </div>
+            <div id="contenidoAside">
+                <div class="imgMuneco">
+                    <img src="img/muneco.png" alt="">
+                </div>
+                
+                <div class="divParrafo">
+                    <p class="p1">Ningún mensaje fue encontrado</p>
+                    <p class="p2">Ingresa el texto que desees encriptar o<br>desencriptar</p>
+                </div>
+
+                <div class="divBtnCopiar" id="idCopiar">
+                    <button id="btnCopiar" class="btnCopiar" >Copiar</button>
+                </div>
+
+            </div>
+            
+        </aside>
+
+    </main>
+    <script src="js/logica.js"></script>
+</body>
+</html>

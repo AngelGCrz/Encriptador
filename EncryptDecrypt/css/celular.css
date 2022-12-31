@@ -1,0 +1,172 @@
+@media (min-width: 375px) and (max-width: 933px) {
+    .header {
+        position: absolute;
+        width: 375px;
+        height: 96px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .main {
+        position: relative;
+        width: 375px;
+        height: 933px;
+        background: #F3F5FC;
+    }
+
+    .aside {
+        /* Frame 5 */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+
+        position: absolute;
+        width: 270px;
+        height: 186px;
+        left: 24px;
+        top: 670px;
+
+        /* White */
+
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+.divMostrarTexto{
+
+    
+        position: absolute;
+        width: 343px;
+        height: 595px;
+        left: 16px;
+        top: 32px;
+min-height: 3rem;
+}
+
+/*caja de texto texArea*/
+.mostrarTexto{
+    background: #FFFFFF;
+    width: 279px;
+    height: 202px;
+    
+    
+}
+.divMostrarTexto:empty::before {
+position: absolute;
+}
+    .article {
+        position: absolute;
+        width: 343px;
+        height: 48px;
+        left: 16px;
+        top: 152px;
+    }
+
+
+    .divBtn {
+        /* Frame 3 */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+
+        position: absolute;
+        width: 343px;
+        height: 158px;
+        left: 16px;
+        top: 485px;
+    }
+
+    .divParrafo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+
+        position: absolute;
+        width: 327px;
+        height: 186px;
+        left: 5px;
+        top: 17px;
+    }
+
+    .p1 {
+        /* Ningún mensaje fue encontrado */
+
+
+        width: 263px;
+        height: 58px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        /* or 29px */
+
+        text-align: center;
+
+        /* Gray/gray-500 */
+
+        color: #343A40;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .p2 {
+        /* Ingresa el texto que desees encriptar o desencriptar. */
+
+
+        width: 263px;
+        height: 48px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        /* or 24px */
+
+        text-align: center;
+
+        /* Gray/gray-400 */
+
+        color: #495057;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+
+    }
+
+    .textareaUsuario {
+        width: 320px;
+        left: 42px;
+    }
+
+    .imgMuneco {
+        visibility: hidden;
+    }
+}

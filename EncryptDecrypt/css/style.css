@@ -1,0 +1,301 @@
+body {
+    background: #E5E5E5;
+}
+
+
+.main {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
+}
+
+.article {
+    /* Ingrese el texto aqui */
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+
+}
+
+.divLogo {
+    position: absolute;
+    left: 84px;
+    top: 40px;
+}
+
+textarea {
+    background: #F3F5FC;
+    border-style: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+}
+
+
+.divBtn {
+    /* Frame 3 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+
+}
+
+.btnEncriptar {
+    /* Button */
+    /* Auto layout */
+
+    /*display: flex;*/
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+button {
+    width: 280px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.btnDesencriptar {
+    /* Button */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    /*display: flex;*/
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+    /* Light gray */
+
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    color: #0A3871;
+}
+
+.aside {
+    /* Rectangle 1 */
+
+
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.divTextarea {
+    height: 400px;
+}
+
+.textareaUsuario {
+    width: 680px;
+    height: 288px;
+}
+
+.imgMuneco {
+    /* Muñeco */
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 32px;
+    top: 243px;
+    /*background: black;*/
+    /*background-image: url("img/muneco.png");*/
+}
+
+.divMostrarTexto {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 32px;
+    top: 32px;
+}
+
+/*caja textArea*/
+.mostrarTexto {
+    background: #FFFFFF;
+    width: 336px;
+    height: 700px;
+}
+
+.divParrafo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 32px;
+    top: 579px;
+}
+
+.p1 {
+    /* Ningún mensaje fue encontrado */
+
+
+    width: 336px;
+    height: 58px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+
+    text-align: center;
+
+    /* Gray/gray-500 */
+
+    color: #343A40;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.p2 {
+    /* Ingresa el texto que desees encriptar o desencriptar. */
+
+
+    width: 336px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.btnCopiar {
+    /* Button */
+    
+    
+        box-sizing: border-box;
+    
+        /* Auto layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+    
+        position: absolute;
+        width: 336px;
+        height: 67px;
+        left: 35px;
+        top: 850px;
+    
+        /* Dark blue/dark-blue-300 */
+    
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        display: none;
+}
+
+
+
+
